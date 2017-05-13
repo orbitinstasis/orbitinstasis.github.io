@@ -5,8 +5,8 @@
 	<channel>
 		<title>Ben Writes Stuff</title>
 		<description>Personal blog of Ben Kazemi.</description>		
-		<link>http://ben-kazemi.me/blog/</link>
-		<atom:link href="http://ben-kazemi.me/blog/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://benkazemi.com/blog/</link>
+		<atom:link href="http://benkazemi.com/blog/feed.xml" rel="self" type="application/rss+xml" />
 		{% assign posts = site.pages | where:"layout","post" | sort:"date" | reverse %}{% comment %}
 		{% endcomment %}{% for post in posts limit:20 %}{% comment %}
 			{% endcomment %}{% assign post_url = post.url | append: '\n' | replace: '/index.html\n', '/\n' | remove_first: '\n' %}{% comment %}
@@ -14,8 +14,8 @@
 				<title>{{ post.title | xml_escape }}</title>
 				<description>{{ post.description | xml_escape }}</description>
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>http://ben-kazemi.me{{ post_url }}</link>
-				<guid isPermaLink="true">http://ben-kazemi.me{{ post_url }}</guid>
+				<link>http://benkazemi.com{{ post_url }}</link>
+				<guid isPermaLink="true">http://benkazemi.com{{ post_url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
