@@ -1,5 +1,5 @@
 ---
-title: The Early Days of Electronics
+title: My Introduction to Electronics
 date: 2017-05-16
 description: Exhibiting my earliest console modifications. 
 layout: post
