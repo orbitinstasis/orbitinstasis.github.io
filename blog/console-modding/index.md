@@ -18,7 +18,7 @@ They had a [Mod Gallery](http://metku.net/modgallery/) which was the first secti
 
 I did of course submit a few of my own projects around 2005 when I was 15, one of which made the 'Hall of Fame' which I was very pleased about, as it meant my project was showcased on the homepage. 
 
-Of course, in the coming years I'd cease almost all cosmetic modifications as my knowledge matured, such did my desire to achieve more functional hacks. Nevertheless [here is my GameCube](./GameCube/) which consisted only of cosmetic mods, and [here is my Xbox](./Xbox/) (after killing the other one), which consisted of many functional hacks and mods. 
+Of course, in the coming years I'd cease almost all cosmetic modifications as my knowledge matured, such did my desire to achieve more functional hacks. Nevertheless [here is my GameCube](./GameCube/) which consisted only of cosmetic mods, and [here is my Xbox](./xbox/) (after killing the other one), which consisted of many functional hacks and mods. 
 
 *I've mirrored the two previous sites should they go down in the future, but for historical purposes [here](http://metku.net/modgallery/detail.php?id=3645) and [here](http://metku.net/modgallery/detail.php?id=4016) are the projects respectively on their original sites*
 
@@ -41,15 +41,15 @@ I was quite chuffed with myself and saw myself as an excellent business man as I
 
 This was my first system wide hack that involved more software and hardware modifications to actually improve the hardware. It was also my first and last project that involved spray paint, the number of layers required for a decent finish didn't bode well with my level of patience. 
 
-[![Xbox Overview](./Xbox/xbox_files/1.jpg)](./Xbox/xbox_files/1.jpg)
-[![Xbox Jewel Flash](./Xbox/xbox_files/2.jpg)](./Xbox/xbox_files/2.jpg)
-[![Xbox Jewel No-Flash](./Xbox/xbox_files/3.jpg)](./Xbox/xbox_files/3.jpg)
-[![Xbox Bottom](./Xbox/xbox_files/4.jpg)](./Xbox/xbox_files/4.jpg)
-[![Xbox Front](./Xbox/xbox_files/5.jpg)](./Xbox/xbox_files/5.jpg)
+[![Xbox Overview](./xbox/xbox_files/1.jpg)](./xbox/xbox_files/1.jpg)
+[![Xbox Jewel Flash](./xbox/xbox_files/2.jpg)](./xbox/xbox_files/2.jpg)
+[![Xbox Jewel No-Flash](./xbox/xbox_files/3.jpg)](./xbox/xbox_files/3.jpg)
+[![Xbox Bottom](./xbox/xbox_files/4.jpg)](./xbox/xbox_files/4.jpg)
+[![Xbox Front](./xbox/xbox_files/5.jpg)](./xbox/xbox_files/5.jpg)
 
 The console was chipped by yours truly, unlike the very first Xbox I owned which I went on to kill during cosmetic modification attempts shown below (RIP). The chip allowed for the installation of a Linux based OS that provided a heap of additional functionality. Taking the Jewel off the Xbox required hot air to heat the adhesive, then I essentially ['lapped'](http://metku.net/index.html?path=mods/lapping/index_eng) the plastic, using low grit sandpaper to high grit (300 to 2000), then down to wet paper with toothpaste on it (!) to create a totally transparent (sometimes mirror) finish, if you were patient enough. I had my [art friend](http://bjum.uk/) to draw a dragon on the inside with enamel paint; added a bunch of LEDs, and changed the fans and HDD. 
 
-[![Dead Xbox Jewel LEDs](./Xbox/xbox_files/6.jpg)](./Xbox/xbox_files/6.jpg)
-[![Dead Xbox Open](./Xbox/xbox_files/7.jpg)](./Xbox/xbox_files/7.jpg)
+[![Dead Xbox Jewel LEDs](./xbox/xbox_files/6.jpg)](./xbox/xbox_files/6.jpg)
+[![Dead Xbox Open](./xbox/xbox_files/7.jpg)](./xbox/xbox_files/7.jpg)
 
 Of course I had close to no idea what I was *really* doing when performing these mods, and the majority of them were done whilst following online notes and tutorials. Having said that, they were essentially the gateway drug for what I’d go on to do in 5 years’ time, which was to start a degree in Computer Engineering, the amalgamation of a Computer Science and electronics engineering degree, designed to create panic attacks and nervous breakdowns.
