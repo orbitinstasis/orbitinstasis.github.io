@@ -6,28 +6,21 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="../css/base.css" type="text/css">
 		<link rel="stylesheet" href="../css/blog.css" type="text/css">
-		<link rel="stylesheet" href="../katex/katex.min.css">
-		<link rel="alternate" type="application/atom+xml" title="Blog" href="feed.xml" />
-		<script src="../katex/katex.min.js"></script>
-		<script src="../katex/auto-render.min.js"></script>
-		<title>Blog | Ben Kazemi</title>
+		<link rel="alternate" type="application/atom+xml" title="Projects" href="feed.xml" />
+
+		<title>Projects | Ben Kazemi</title>
 	</head>
 	<body>
 		{% include analytics.html %}
-		<h1>Hi, I'm <a href="/">Ben</a>.</h1>
+		<h1><a href="/">Ben's</a> Projects.</h1>
 		{% include menu.html %}
 		<p>This content is also available as an <a href="feed.xml" class="feed">RSS feed</a>.</p>
-{% assign posts = site.pages | where:"layout","post" | sort:"date" | reverse %}
-{% for post in posts %}{% comment %}
-	{% endcomment %}		<div class="entry">
+{% assign posts = site.pages | where:"layout","post" | sort:"date" | reverse %}{% for post in posts %}{% assign prefix = post.url | truncate:6,"" %}{% if prefix == "/blog/" %}		<div class="entry">
 			<h2><a href="{{ post.url | append: '\n' | replace: '/index.html\n', '/\n' | remove_first: '\n' }}" class="permalink">{{ post.title | xml_escape }}</a></h2>
 			<p class="time">{{ post.date | date:'%B %-d, %Y' }}</p>
 		</div>
-{% endfor %}
+{% endif %}{% endfor %}
 		<div class="closing">Questions or comments? Drop me a line at <a href="mailto:hello@benkazemi.com">hello@benkazemi.com</a>.</div>
-		<div class="license">
-			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Original work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://anthony-zhang.me/" property="cc:attributionName" rel="cc:attributionURL">Anthony Zhang</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-			Copyright 2013-2017 Anthony Zhang. Edited by <a xmlns:cc="http://creativecommons.org/ns#" href="http://benkazemi.com/" property="cc:attributionName" rel="cc:attributionURL">Ben Kazemi</a> 
-		</div>
+		{% include license.html %}
 	</body>
 </html>
