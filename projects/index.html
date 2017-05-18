@@ -15,7 +15,7 @@
 		<h1>Hi, I'm <a href="/">Ben</a>.</h1>
 		{% include menu.html %}
 		<p>This content is also available as an <a href="feed.xml" class="feed">RSS feed</a>.</p>
-{% assign posts = site.pages | where:"layout","post" | sort:"date" | reverse %}{% for post in posts %}{% assign prefix = post.url | truncate:6,"" %}{% if prefix == "/projects/" %}		<div class="entry">
+{% assign posts = site.pages | where:"layout","post" | sort:"date" | reverse %}{% for post in posts %}{% assign prefix = post.url | truncate:10,"" %}{% if prefix == "/projects/" %}		<div class="entry">
 			<h2><a href="{{ post.url | append: '\n' | replace: '/index.html\n', '/\n' | remove_first: '\n' }}" class="permalink">{{ post.title | xml_escape }}</a></h2>
 			<p class="time">{{ post.date | date:'%B %-d, %Y' }}</p>
 		</div>
