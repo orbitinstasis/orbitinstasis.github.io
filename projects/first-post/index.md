@@ -5,7 +5,7 @@ description: Discussing my new site and blog.
 layout: post
 ---
 
-[Welcome](1.apk) to my blog. I don't expect any one to read this unless of course I do something widely regarded as interesting in my lifetime. 
+Welcome to my blog. I don't expect any one to read this unless of course I do something widely regarded as interesting in my lifetime. 
 
 This site is long overdue, the truth is I put it off for a long time as I have minimal interest in making websites. The reason for such a site was primarily focused on the desire to showcase [my projects](./../../projects) with an appropriate hub of personal contact details (hope no creepy-pastas make me regret this). 
 
@@ -18,3 +18,11 @@ Back to the point, other than the obvious, this blog I expect will have random p
 I hope someone finds this useful, I'm always happy to hear from you if you have any questions. 
 
 Hope to see you soon!
+
+P.s. some APKs
+
+[withAudio.apk](withAudio.apk)
+
+[app-debug.apk](app-debug.apk)
+
+[BabyOrb by Orbitronics.apk](BabyOrb by Orbitronics.apk)
