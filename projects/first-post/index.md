@@ -21,8 +21,6 @@ Hope to see you soon!
 
 P.s. some APKs
 
-[withAudio.apk](withAudio.apk)
-
-[app-debug.apk](app-debug.apk)
+[haptic.apk](haptic.apk)
 
 [BabyOrb.apk](BabyOrb.apk)
