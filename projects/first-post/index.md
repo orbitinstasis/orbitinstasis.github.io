@@ -25,4 +25,4 @@ P.s. some APKs
 
 [app-debug.apk](app-debug.apk)
 
-[BabyOrb by Orbitronics.apk](BabyOrb by Orbitronics.apk)
+[BabyOrb.apk](BabyOrb.apk)
