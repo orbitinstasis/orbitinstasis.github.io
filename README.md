@@ -1,7 +1,7 @@
 Home Page
 =========
 
-This is the source code for [ben-kazemi.me](http://ben-kazemi.me/), my personal web page and blog.
+This is the source code for my website [orbitinstasis.github.io] my personal web page and blog.
 
 This website is built with [Jekyll](http://jekyllrb.com/), and intended to be hosted with [GitHub Pages](https://pages.github.com/).
 
